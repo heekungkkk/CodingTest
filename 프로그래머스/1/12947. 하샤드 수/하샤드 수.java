@@ -5,10 +5,11 @@ class Solution {
         for(int i = 0; i < str.length(); i ++){
             a += str.charAt(i) - '0';
         }
-        if(x%a==0){
-            return true;
-        }else{
-            return false;
-        }
+        return (x%a==0) ?true : false;
+        // if(x%a==0){
+        //     return true;
+        // }else{
+        //     return false;
+        // }
     }
 }
