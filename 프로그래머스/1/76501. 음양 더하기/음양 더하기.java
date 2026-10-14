@@ -5,7 +5,7 @@ class Solution {
             if(signs[i] == true){
                 answer += absolutes[i];
             }else{
-                answer += (-1)*absolutes[i];
+                answer -= absolutes[i];
             }
         }
         return answer;
